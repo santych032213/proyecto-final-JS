@@ -1,0 +1,14 @@
+.masc-flex{
+    display: flex;
+    margin-top: 6.25rem;
+    margin-bottom: 9.375rem;
+    .masc1-flex{
+        width: 50%;
+        height: 12.5rem;
+        @include flex(row, nowrap, flex-start, center, 1.25rem);
+        img{
+            width: 18.75rem;
+            height: 18.75rem;
+        }
+    }
+}

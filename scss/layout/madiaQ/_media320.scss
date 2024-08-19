@@ -1,0 +1,115 @@
+@media(max-width:320px){
+    footer{
+        .navBar-2{
+            @include grid(100%, 25% 10% 10% 10% 10% 10% 25%, 2.5rem 10.9375rem .625rem 10.9375rem);
+            .iframe1{
+                img{
+                    width: 300px;
+                    height: 100%;
+                }
+            }
+            .iframe2{
+                img{
+                    width: 300px;
+                    height: 100%;
+                }
+            }
+        }
+        .logoWhatsapp{
+            a{
+                img{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+            }
+        }
+        .subir{
+            a{
+                img{
+                    width: 2.1875rem;
+                    height: 2.1875rem;
+                }
+            }
+        }
+    }
+    main{
+        .masc-flex{
+            margin-top: 0px;
+            margin-bottom: 10.625rem;
+            .masc1-flex{
+                width: 50%;
+                height: 12.5rem;
+                img{
+                    width: 7.5rem;
+                    height: 7.5rem;
+                }
+            }
+        }
+        .titulos{
+            h2{
+            font-size: map-get($medidas, 20);
+            }
+            h1{
+                font-size:map-get($medidas, 20);
+            }
+        }
+        .tituloNovedades{
+            font-size: map-get($medidas, 20);
+        }
+        h2{ 
+            font-size: map-get($medidas, 14);
+            margin-top: .3125rem;
+        }
+        h3{
+            font-size: map-get($medidas, 10);
+        }
+        p{
+            font-size: map-get($medidas, 8);
+        }
+        .bot-car{
+            font-size: map-get($medidas, 4);
+        }
+        .fem-Grid{
+            @include grid(100%, repeat(2, 1fr), 10% 23% 10% 23% 10% 23%);
+        }
+        .item1{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+        .item3{
+            width: 8.75rem;
+            height: 8.75rem
+        }
+        .item5{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+        .item7{
+            width: 8.75rem;
+            height: 8.75rem;
+        }
+        .item9{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+        .item11{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+
+
+    }
+
+    header{
+        .navBar-1{
+            li{
+                font-size: map-get($medidas, 10);
+            }
+            .navbar-brand{
+                font-size: map-get($medidas, 16);
+            }
+        }
+    }
+}
+
+
