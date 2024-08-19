@@ -108,35 +108,3 @@ while (fraganciaelegida !== "8"){
     }
     fraganciaelegida = "8";
 }
-
-/*let fraganciaelegida;
-
-while (fraganciaelegida !== "7") {
-    fraganciaelegida = prompt("Elige una fragancia (1-6) o 7 para salir:");
-
-    if (fraganciaelegida === "1") {
-        let precioFinal = suma(Gentleman, iva(Gentleman));
-        alert("El precio final es de $" + precioFinal);
-    } else if (fraganciaelegida === "2") {
-        let precioFinal = suma(Homme, iva(Homme));
-        alert("El precio final es de $" + precioFinal);
-    } else if (fraganciaelegida === "3") {
-        let precioFinal = suma(Habit, iva(Habit));
-        alert("El precio final es de $" + precioFinal);
-    } else if (fraganciaelegida === "4") {
-        let precioFinal = suma(Drakkar, iva(Drakkar));
-        alert("El precio final es de $" + precioFinal);
-    } else if (fraganciaelegida === "5") {
-        let precioFinal = suma(Ambar, iva(Ambar));
-        alert("El precio final es de $" + precioFinal);
-    } else if (fraganciaelegida === "6") {
-        let precioFinal = suma(Eau, iva(Eau));
-        alert("El precio final es de $" + precioFinal);
-    } else if (fraganciaelegida === "7") {
-        alert("¡Muchas gracias por tu compra!");
-    } else {
-        alert("Opción no válida. Por favor, elige un número del 1 al 7.");
-    }
-}*/
-
-
